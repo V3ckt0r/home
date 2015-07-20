@@ -1,0 +1,11 @@
+--- javaclass.jar	2015-06-30 10:08:47.543650044 +0100
++++ javaclass-update.jar	2015-06-30 10:09:16.633649749 +0100
+@@ -4,7 +4,7 @@
+     
+      #some example code
+ 
+-
++     # added extra comments
+   }
+ 
+ }

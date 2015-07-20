@@ -1,0 +1,25 @@
+#!/usr/bin/perl
+
+use 5.010000;
+use warnings;
+use strict;
+use Email::MIME;
+
+# firstly, create your message
+my $message = Email::MIME->create(
+	header_str => [
+	  From	=> 'burhan_abdi@hotmail.co.uk',
+	  To	=> 'marie.peyto@hotmail.co.uk',
+	  Subject => 'Test email',
+	],
+	attributes => {
+	  encoding => 'quoted-printable',
+	  charset => 'ISO-8859-1',
+	},
+	body_str => "Happy birthday to you!\n",
+	);
+
+# send the message
+use Email::Sender::Simple qw(sendmail);
+sendmail($message);
+

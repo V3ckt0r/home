@@ -1,0 +1,502 @@
+diff -Naur testdir/test1 test2dir/test1
+--- testdir/test1	2015-06-30 10:16:26.629645385 +0100
++++ test2dir/test1	2015-06-30 10:18:17.192644262 +0100
+@@ -1,19 +1 @@
+-bin
+-boot
+-dev
+-etc
+-home
+-lib
+-lib64
+-media
+-mnt
+-opt
+-proc
+-root
+-run
+-sbin
+-srv
+-sys
+-tmp
+-usr
+-var
++b
+diff -Naur testdir/test2 test2dir/test2
+--- testdir/test2	2015-06-30 10:16:35.063645299 +0100
++++ test2dir/test2	2015-06-30 10:18:25.338644180 +0100
+@@ -1,287 +1,24 @@
+-abrt
+-adjtime
+-aliases
+-aliases.db
+-alsa
+-alternatives
+-anacrontab
+-apt
+-asound.conf
+-at.deny
+-at-spi2
+-audisp
+-audit
+-autofs.conf
+-autofs_ldap_auth.conf
+-auto.master
+-auto.master.d
+-auto.misc
+-auto.net
+-auto.smb
+-avahi
+-bash_completion.d
+-bashrc
+-binfmt.d
+-bluetooth
+-brltty
+-brltty.conf
+-centos-release
+-centos-release-upstream
+-certmonger
+-cgconfig.conf
+-cgconfig.d
+-cgrules.conf
+-cgsnapshot_blacklist.conf
+-chkconfig.d
+-chrony.conf
+-chrony.keys
+-cifs-utils
+-colord.conf
+-cron.d
+-cron.daily
+-cron.deny
+-cron.hourly
+-cron.monthly
+-crontab
+-cron.weekly
+-crypttab
+-csh.cshrc
+-csh.login
+-cups
+-cupshelpers
+-dbus-1
+-dconf
+-default
+-depmod.d
+-dhcp
+-DIR_COLORS
+-DIR_COLORS.256color
+-DIR_COLORS.lightbgcolor
+-dnsmasq.conf
+-dnsmasq.d
+-dracut.conf
+-dracut.conf.d
+-drirc
+-e2fsck.conf
+-enscript.cfg
+-environment
+-ethertypes
+-exports
+-exports.d
+-favicon.png
+-fcoe
+-festival
+-filesystems
+-firewalld
+-fonts
+-fprintd.conf
+-fstab
+-fuse.conf
+-gconf
+-gcrypt
+-gdbinit
+-gdbinit.d
++account
++adm
++cache
++crash
++db
++empty
++games
+ gdm
+-GeoIP.conf
+-GeoIP.conf.default
+-ghostscript
+-gnome-settings-daemon
+-gnupg
+-GREP_COLORS
+-groff
+-group
+-group-
+-grub2.cfg
+-grub.d
+-gshadow
+-gshadow-
+-gss
+-gssproxy
+-gtk-2.0
+-gtk-3.0
+-hba.conf
+-host.conf
+-hostname
+-hosts
+-hosts.allow
+-hosts.deny
+-hp
+-httpd
+-idmapd.conf
+-init.d
+-inittab
+-inputrc
+-ipa
+-iproute2
+-ipsec.conf
+-ipsec.d
+-ipsec.secrets
+-iscsi
+-issue
+-issue.net
+-java
+-jvm
+-jvm-commmon
+-kdump.conf
+-kernel
+-krb5.conf
+-ksmtuned.conf
+-ld.so.cache
+-ld.so.conf
+-ld.so.conf.d
+-libaudit.conf
+-libibverbs.d
+-libnl
+-libreport
+-libuser.conf
+-libvirt
+-locale.conf
+-localtime
+-login.defs
+-logrotate.conf
+-logrotate.d
+-lvm
+-machine-id
+-magic
+-mailcap
+-mail.rc
+-makedumpfile.conf.sample
+-man_db.conf
+-maven
+-mime.types
+-mke2fs.conf
+-modprobe.d
+-modules-load.d
+-motd
+-mtab
+-mtools.conf
+-multipath
+-my.cnf
+-my.cnf.d
+-nanorc
+-netconfig
+-NetworkManager
+-networks
+-nfsmount.conf
+-nginx
+-nsswitch.conf
+-nsswitch.conf.bak
+-ntp
+-ntp.conf
+-numad.conf
+-oddjob
+-oddjobd.conf
+-oddjobd.conf.d
+-openldap
++gopher
++kerberos
++lib
++local
++lock
++log
++mail
++nis
+ opt
+-os-release
+-PackageKit
+-pam.d
+-passwd
+-passwd-
+-pbm2ppa.conf
+-pinforc
+-pkcs11
+-pki
+-plymouth
+-pm
+-pnm2ppa.conf
+-polkit-1
+-popt.d
+-postfix
+-ppp
+-prelink.conf.d
+-printcap
+-profile
+-profile.d
+-protocols
+-pulse
+-purple
+-qemu-ga
+-qemu-kvm
+-radvd.conf
+-rc0.d
+-rc1.d
+-rc2.d
+-rc3.d
+-rc4.d
+-rc5.d
+-rc6.d
+-rc.d
+-rc.local
+-rdma
+-redhat-release
+-request-key.conf
+-request-key.d
+-resolv.conf
+-rpc
+-rpm
+-rsyncd.conf
+-rsyslog.conf
+-rsyslog.d
+-rwtab
+-rwtab.d
+-samba
+-sane.d
+-sasl2
+-scl
+-securetty
+-security
+-selinux
+-services
+-sestatus.conf
+-setroubleshoot
+-setuptool.d
+-sgml
+-shadow
+-shadow-
+-shells
+-skel
+-smart
+-smartmontools
+-sos.conf
+-speech-dispatcher
+-ssh
+-ssl
+-sssd
+-statetab
+-statetab.d
+-subversion
+-sudo.conf
+-sudoers
+-sudoers.d
+-sudo-ldap.conf
+-sysconfig
+-sysctl.conf
+-sysctl.d
+-systemd
+-system-release
+-system-release-cpe
+-target
+-tcsd.conf
+-terminfo
+-tmpfiles.d
+-tomcat
+-trusted-key.key
+-tuned
+-udev
+-udisks2
+-unbound
+-updatedb.conf
+-UPower
+-usb_modeswitch.conf
+-usb_modeswitch.d
+-vconsole.conf
+-vimrc
+-virc
+-vmware-tools
+-wgetrc
+-wpa_supplicant
+-wvdial.conf
+-X11
+-xdg
+-xinetd.d
+-xml
+-yum
+-yum.conf
+-yum.repos.d
++preserve
++run
++spool
++tmp
++var
++www
++yp
+diff -Naur testdir/test3 test2dir/test3
+--- testdir/test3	2015-06-30 10:16:40.982645239 +0100
++++ test2dir/test3	2015-06-30 10:18:35.839644073 +0100
+@@ -1,12 +1,149 @@
+-bin
+-etc
+-games
+-include
+-lib
+-lib64
+-libexec
+-local
+-sbin
+-share
+-src
+-tmp
++UID        PID  PPID  C STIME TTY          TIME CMD
++root         1     0  0 09:23 ?        00:00:00 /usr/lib/systemd/systemd --switched-root --system --deserialize 24
++root         2     0  0 09:23 ?        00:00:00 [kthreadd]
++root         3     2  0 09:23 ?        00:00:00 [ksoftirqd/0]
++root         5     2  0 09:23 ?        00:00:00 [kworker/0:0H]
++root         7     2  0 09:23 ?        00:00:00 [migration/0]
++root         8     2  0 09:23 ?        00:00:00 [rcu_bh]
++root         9     2  0 09:23 ?        00:00:00 [rcuob/0]
++root        10     2  0 09:23 ?        00:00:00 [rcu_sched]
++root        11     2  0 09:23 ?        00:00:00 [rcuos/0]
++root        12     2  0 09:23 ?        00:00:00 [watchdog/0]
++root        13     2  0 09:23 ?        00:00:00 [khelper]
++root        14     2  0 09:23 ?        00:00:00 [kdevtmpfs]
++root        15     2  0 09:23 ?        00:00:00 [netns]
++root        16     2  0 09:23 ?        00:00:00 [writeback]
++root        17     2  0 09:23 ?        00:00:00 [kintegrityd]
++root        18     2  0 09:23 ?        00:00:00 [bioset]
++root        19     2  0 09:23 ?        00:00:00 [kblockd]
++root        20     2  0 09:23 ?        00:00:00 [khubd]
++root        21     2  0 09:23 ?        00:00:00 [md]
++root        24     2  0 09:23 ?        00:00:00 [khungtaskd]
++root        25     2  0 09:23 ?        00:00:00 [kswapd0]
++root        26     2  0 09:23 ?        00:00:00 [ksmd]
++root        27     2  0 09:23 ?        00:00:00 [khugepaged]
++root        28     2  0 09:23 ?        00:00:00 [fsnotify_mark]
++root        29     2  0 09:23 ?        00:00:00 [crypto]
++root        38     2  0 09:23 ?        00:00:00 [kthrotld]
++root        40     2  0 09:23 ?        00:00:00 [kmpath_rdacd]
++root        41     2  0 09:23 ?        00:00:00 [kpsmoused]
++root        60     2  0 09:23 ?        00:00:00 [deferwq]
++root        83     2  0 09:23 ?        00:00:00 [kauditd]
++root       250     2  0 09:23 ?        00:00:00 [ata_sff]
++root       260     2  0 09:24 ?        00:00:00 [scsi_eh_0]
++root       263     2  0 09:24 ?        00:00:00 [scsi_tmf_0]
++root       264     2  0 09:24 ?        00:00:00 [scsi_eh_1]
++root       266     2  0 09:24 ?        00:00:00 [scsi_tmf_1]
++root       269     2  0 09:24 ?        00:00:00 [scsi_eh_2]
++root       270     2  0 09:24 ?        00:00:00 [kworker/u2:2]
++root       271     2  0 09:24 ?        00:00:00 [scsi_tmf_2]
++root       272     2  0 09:24 ?        00:00:00 [kworker/u2:3]
++root       273     2  0 09:24 ?        00:00:00 [scsi_eh_3]
++root       274     2  0 09:24 ?        00:00:00 [scsi_tmf_3]
++root       286     2  0 09:24 ?        00:00:00 [kworker/0:1H]
++root       348     2  0 09:24 ?        00:00:00 [kdmflush]
++root       349     2  0 09:24 ?        00:00:00 [bioset]
++root       360     2  0 09:24 ?        00:00:00 [kdmflush]
++root       361     2  0 09:24 ?        00:00:00 [bioset]
++root       374     2  0 09:24 ?        00:00:00 [xfsalloc]
++root       375     2  0 09:24 ?        00:00:00 [xfs_mru_cache]
++root       376     2  0 09:24 ?        00:00:00 [xfs-buf/dm-0]
++root       377     2  0 09:24 ?        00:00:00 [xfs-data/dm-0]
++root       378     2  0 09:24 ?        00:00:00 [xfs-conv/dm-0]
++root       379     2  0 09:24 ?        00:00:00 [xfs-cil/dm-0]
++root       380     2  0 09:24 ?        00:00:00 [xfsaild/dm-0]
++root       465     1  0 09:24 ?        00:00:00 /usr/lib/systemd/systemd-journald
++root       482     1  0 09:24 ?        00:00:00 /usr/sbin/lvmetad -f
++root       486     1  0 09:24 ?        00:00:00 /usr/lib/systemd/systemd-udevd
++root       527     2  0 09:24 ?        00:00:00 [xfs-buf/sda1]
++root       528     2  0 09:24 ?        00:00:00 [xfs-data/sda1]
++root       529     2  0 09:24 ?        00:00:00 [xfs-conv/sda1]
++root       530     2  0 09:24 ?        00:00:00 [xfs-cil/sda1]
++root       531     2  0 09:24 ?        00:00:00 [xfsaild/sda1]
++root       548     1  0 09:24 ?        00:00:00 /sbin/auditd -n
++root       559   548  0 09:24 ?        00:00:00 /sbin/audispd
++root       562   559  0 09:24 ?        00:00:00 /usr/sbin/sedispatch
++root       573     1  0 09:24 ?        00:00:00 /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
++root       575     1  0 09:24 ?        00:00:00 /usr/bin/python -Es /usr/sbin/firewalld --nofork --nopid
++root       578     1  0 09:24 ?        00:00:00 /usr/sbin/rsyslogd -n
++root       579     1  0 09:24 ?        00:00:00 /usr/bin/python -Es /usr/sbin/tuned -l -P
++root       581     1  0 09:24 ?        00:00:00 /usr/sbin/abrtd -d -s
++root       582     1  0 09:24 ?        00:00:00 /usr/bin/abrt-watch-log -F BUG: WARNING: at WARNING: CPU: INFO: possible recursive locking detected ernel BUG at list_del corruption list_add corruption do_IRQ: stack overflow: ear stack overflow (cur: eneral protection fault nable to handle kernel ouble fault: RTNL: assertion failed eek! page_mapcount(page) went negative! adness at NETDEV WATCHDOG ysctl table check failed : nobody cared IRQ handler type mismatch Machine Check Exception: Machine check events logged divide error: bounds: coprocessor segment overrun: invalid TSS: segment not present: invalid opcode: alignment check: stack segment: fpu exception: simd exception: iret exception: /var/log/messages -- /usr/bin/abrt-dump-oops -xtD
++root       585     1  0 09:24 ?        00:00:00 /usr/bin/abrt-watch-log -F Backtrace /var/log/Xorg.0.log -- /usr/bin/abrt-dump-xorg -xD
++libstor+   587     1  0 09:24 ?        00:00:00 /usr/bin/lsmd -d
++root       590     1  0 09:24 ?        00:00:00 /usr/sbin/ModemManager
++root       606     1  0 09:24 ?        00:00:00 /usr/sbin/smartd -n -q never
++avahi      607     1  0 09:24 ?        00:00:00 avahi-daemon: running [linux.local]
++root       609     1  0 09:24 ?        00:00:00 /usr/lib/systemd/systemd-logind
++root       610     1  0 09:24 ?        00:00:00 /usr/libexec/accounts-daemon
++rtkit      611     1  0 09:24 ?        00:00:00 /usr/libexec/rtkit-daemon
++dbus       617     1  0 09:24 ?        00:00:00 /bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
++root       629     1  0 09:24 ?        00:00:00 /bin/bash /usr/sbin/ksmtuned
++avahi      633   607  0 09:24 ?        00:00:00 avahi-daemon: chroot helper
++polkitd    653     1  0 09:24 ?        00:00:03 /usr/lib/polkit-1/polkitd --no-debug
++root       747     1  0 09:24 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
++root      1084     1  0 09:24 ?        00:00:00 /usr/sbin/sshd -D
++root      1085     1  0 09:24 ?        00:00:00 /usr/sbin/libvirtd
++root      1238     1  0 09:24 ?        00:00:00 /usr/sbin/crond -n
++root      1240     1  0 09:24 ?        00:00:00 /usr/sbin/atd -f
++root      1242     1  0 09:24 ?        00:00:00 /usr/sbin/gdm
++root      1334  1242  0 09:24 ?        00:00:00 /usr/libexec/gdm-simple-slave --display-id /org/gnome/DisplayManager/Displays/_0
++root      1384  1334  0 09:24 tty1     00:00:14 /usr/bin/Xorg :0 -background none -verbose -auth /run/gdm/auth-for-gdm-FrTBa6/database -seat seat0 -nolisten tcp vt1
++root      1848     1  0 09:24 ?        00:00:00 /usr/libexec/postfix/master -w
++postfix   1873  1848  0 09:24 ?        00:00:00 pickup -l -t unix -u
++postfix   1874  1848  0 09:24 ?        00:00:00 qmgr -l -t unix -u
++root      2405     1  0 09:24 ?        00:00:00 /usr/libexec/upowerd
++colord    2464     1  0 09:24 ?        00:00:00 /usr/libexec/colord
++root      2583  1334  0 09:24 ?        00:00:00 gdm-session-worker [pam/gdm-password]
++b         2589     1  0 09:24 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
++b         2591  2583  0 09:24 ?        00:00:00 gnome-session --session gnome-classic
++b         2599     1  0 09:24 ?        00:00:00 dbus-launch --sh-syntax --exit-with-session
++b         2600     1  0 09:24 ?        00:00:00 /bin/dbus-daemon --fork --print-pid 4 --print-address 6 --session
++b         2664     1  0 09:24 ?        00:00:00 /usr/libexec/gvfsd
++b         2677     1  0 09:24 ?        00:00:00 /usr/libexec//gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
++b         2746  2591  0 09:24 ?        00:00:00 /usr/bin/ssh-agent /bin/sh -c exec -l /bin/bash -c "env GNOME_SHELL_SESSION_MODE=classic gnome-session --session gnome-classic"
++b         2762     1  0 09:24 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
++b         2766  2762  0 09:24 ?        00:00:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
++b         2770     1  0 09:24 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
++b         2780  2591  0 09:24 ?        00:00:00 /usr/libexec/gnome-settings-daemon
++b         2787     1  0 09:24 ?        00:00:01 /usr/bin/pulseaudio --start
++b         2828     1  0 09:24 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
++root      2834     1  0 09:24 ?        00:00:00 /usr/lib/udisks2/udisksd --no-debug
++root      2845     1  0 09:24 ?        00:00:00 /usr/sbin/bluetoothd -n
++b         2852     1  0 09:24 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
++b         2859     1  0 09:24 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
++b         2863     1  0 09:24 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
++b         2866     1  0 09:24 ?        00:00:00 /usr/libexec/goa-daemon
++b         2874     1  0 09:24 ?        00:00:00 /usr/libexec/goa-identity-service
++b         2876     1  0 09:24 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
++root      2886     1  0 09:24 ?        00:00:00 /usr/sbin/cupsd -f
++b         2887  2591  3 09:24 ?        00:01:47 /usr/bin/gnome-shell
++b         2893     1  0 09:24 ?        00:00:00 /usr/libexec/gsd-printer
++b         2904     1  0 09:24 ?        00:00:00 /usr/libexec/dconf-service
++b         2913     1  0 09:24 ?        00:00:00 /usr/bin/ibus-daemon --replace --xim --panel disable
++b         2918  2913  0 09:24 ?        00:00:00 /usr/libexec/ibus-dconf
++b         2927     1  0 09:24 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
++b         2937  2913  0 09:24 ?        00:00:00 /usr/libexec/ibus-engine-simple
++b         2946     1  0 09:24 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
++b         2948     1  0 09:24 ?        00:00:00 /usr/libexec/mission-control-5
++b         2960     1  0 09:24 ?        00:00:00 /usr/libexec/evolution-source-registry
++b         2998     1  0 09:24 ?        00:00:00 /usr/bin/nautilus --no-default-window
++b         3030     1  0 09:24 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
++b         3041     1  0 09:24 ?        00:00:00 /usr/libexec/gconfd-2
++b         3042     1  0 09:24 ?        00:00:00 /usr/libexec/tracker-store
++b         3043     1  0 09:24 ?        00:00:00 /usr/libexec/evolution-calendar-factory
++b         3070     1  0 09:24 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
++b         3092  2591  0 09:24 ?        00:00:00 /usr/libexec/tracker-miner-fs
++b         3104  2591  0 09:24 ?        00:00:00 abrt-applet
++b         3133     1  0 09:24 ?        00:00:00 /usr/libexec/gvfsd-metadata
++b         3266     1  0 09:24 ?        00:00:03 /usr/libexec/gnome-terminal-server
++b         3269  3266  0 09:24 ?        00:00:00 gnome-pty-helper
++b         3270  3266  0 09:24 pts/0    00:00:00 bash
++root      3860     2  0 09:42 ?        00:00:00 [kworker/0:3]
++root      4103   747  0 09:45 ?        00:00:00 /sbin/dhclient -d -q -sf /usr/libexec/nm-dhcp-helper -pf /var/run/dhclient-enp0s3.pid -lf /var/lib/NetworkManager/dhclient-0d1b2c27-f4d3-4e90-aab3-c93b3d962ec9-enp0s3.lease -cf /var/lib/NetworkManager/dhclient-enp0s3.conf enp0s3
++root      4724     1  0 10:01 ?        00:00:00 /usr/sbin/anacron -s
++root      5042     2  0 10:07 ?        00:00:00 [kworker/0:1]
++root      5223     2  0 10:10 ?        00:00:00 [kworker/0:2]
++root      5523   629  0 10:18 ?        00:00:00 sleep 60
++root      5524     2  0 10:18 ?        00:00:00 [kworker/0:0]
++b         5533  3270  0 10:18 pts/0    00:00:00 ps -ef

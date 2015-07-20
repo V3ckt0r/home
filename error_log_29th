@@ -1,0 +1,90 @@
+[Wed Apr 29 08:11:56.156247 2015] [core:notice] [pid 28308] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Apr 29 08:11:56.157897 2015] [suexec:notice] [pid 28308] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Apr 29 08:11:56.164034 2015] [auth_digest:notice] [pid 28308] AH01757: generating secret for digest authentication ...
+[Wed Apr 29 08:11:56.164734 2015] [lbmethod_heartbeat:notice] [pid 28308] AH02282: No slotmem from mod_heartmonitor
+[Wed Apr 29 08:11:56.175371 2015] [mpm_prefork:notice] [pid 28308] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Wed Apr 29 08:11:56.175397 2015] [core:notice] [pid 28308] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Apr 29 08:21:54.121408 2015] [authz_core:error] [pid 28309] [client ::1:55580] AH01630: client denied by server configuration: /www
+[Wed Apr 29 08:21:54.216404 2015] [authz_core:error] [pid 28309] [client ::1:55580] AH01630: client denied by server configuration: /www, referer: http://localhost/noindex/css/open-sans.css
+[Wed Apr 29 08:21:54.229832 2015] [authz_core:error] [pid 28309] [client ::1:55580] AH01630: client denied by server configuration: /www, referer: http://localhost/noindex/css/open-sans.css
+[Wed Apr 29 08:21:54.230198 2015] [authz_core:error] [pid 28309] [client ::1:55580] AH01630: client denied by server configuration: /www, referer: http://localhost/noindex/css/open-sans.css
+[Wed Apr 29 08:21:54.251431 2015] [authz_core:error] [pid 28309] [client ::1:55580] AH01630: client denied by server configuration: /www, referer: http://localhost/noindex/css/open-sans.css
+[Wed Apr 29 08:21:54.331682 2015] [authz_core:error] [pid 28309] [client ::1:55580] AH01630: client denied by server configuration: /www
+[Wed Apr 29 08:21:54.332319 2015] [authz_core:error] [pid 28309] [client ::1:55580] AH01630: client denied by server configuration: /www
+[Wed Apr 29 09:48:36.614846 2015] [mpm_prefork:notice] [pid 28308] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Apr 29 09:49:21.551544 2015] [core:notice] [pid 28863] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Apr 29 09:49:21.553139 2015] [suexec:notice] [pid 28863] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Apr 29 09:49:26.584559 2015] [auth_digest:notice] [pid 28863] AH01757: generating secret for digest authentication ...
+[Wed Apr 29 09:49:26.585795 2015] [lbmethod_heartbeat:notice] [pid 28863] AH02282: No slotmem from mod_heartmonitor
+[Wed Apr 29 09:49:26.586628 2015] [mpm_prefork:notice] [pid 28863] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Wed Apr 29 09:49:26.586653 2015] [core:notice] [pid 28863] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Apr 29 09:49:50.127310 2015] [autoindex:error] [pid 28897] [client ::1:55605] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Apr 29 09:56:00.695416 2015] [mpm_prefork:notice] [pid 28863] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Apr 29 09:56:36.894758 2015] [core:notice] [pid 29081] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Apr 29 09:56:36.897780 2015] [suexec:notice] [pid 29081] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Apr 29 09:56:41.934460 2015] [auth_digest:notice] [pid 29081] AH01757: generating secret for digest authentication ...
+[Wed Apr 29 09:56:41.937313 2015] [lbmethod_heartbeat:notice] [pid 29081] AH02282: No slotmem from mod_heartmonitor
+[Wed Apr 29 09:56:41.941968 2015] [mpm_prefork:notice] [pid 29081] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Wed Apr 29 09:56:41.942080 2015] [core:notice] [pid 29081] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Apr 29 09:56:41.970928 2015] [autoindex:error] [pid 29085] [client ::1:55638] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Apr 29 10:05:56.005260 2015] [mpm_prefork:notice] [pid 29081] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Apr 29 10:08:09.469925 2015] [core:notice] [pid 29428] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Apr 29 10:08:09.471229 2015] [suexec:notice] [pid 29428] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Apr 29 10:08:14.494092 2015] [auth_digest:notice] [pid 29428] AH01757: generating secret for digest authentication ...
+[Wed Apr 29 10:08:14.496776 2015] [lbmethod_heartbeat:notice] [pid 29428] AH02282: No slotmem from mod_heartmonitor
+[Wed Apr 29 10:08:14.501948 2015] [mpm_prefork:notice] [pid 29428] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Wed Apr 29 10:08:14.502030 2015] [core:notice] [pid 29428] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Apr 29 10:17:22.522693 2015] [mpm_prefork:notice] [pid 29428] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Apr 29 10:17:23.560706 2015] [core:notice] [pid 29737] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Apr 29 10:17:23.561479 2015] [suexec:notice] [pid 29737] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Apr 29 10:17:23.570239 2015] [auth_digest:notice] [pid 29737] AH01757: generating secret for digest authentication ...
+[Wed Apr 29 10:17:23.571305 2015] [lbmethod_heartbeat:notice] [pid 29737] AH02282: No slotmem from mod_heartmonitor
+[Wed Apr 29 10:17:23.576578 2015] [mpm_prefork:notice] [pid 29737] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Wed Apr 29 10:17:23.576598 2015] [core:notice] [pid 29737] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Apr 29 10:20:40.130964 2015] [mpm_prefork:notice] [pid 29737] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Apr 29 10:20:41.198993 2015] [core:notice] [pid 29861] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Apr 29 10:20:41.199637 2015] [suexec:notice] [pid 29861] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Apr 29 10:20:41.205747 2015] [auth_digest:notice] [pid 29861] AH01757: generating secret for digest authentication ...
+[Wed Apr 29 10:20:41.206305 2015] [lbmethod_heartbeat:notice] [pid 29861] AH02282: No slotmem from mod_heartmonitor
+[Wed Apr 29 10:20:41.213609 2015] [mpm_prefork:notice] [pid 29861] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Wed Apr 29 10:20:41.213632 2015] [core:notice] [pid 29861] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Apr 29 11:38:50.156046 2015] [mpm_prefork:notice] [pid 29861] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Apr 29 13:05:53.239758 2015] [core:notice] [pid 5363] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Apr 29 13:05:53.241646 2015] [suexec:notice] [pid 5363] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Apr 29 13:05:58.266245 2015] [auth_digest:notice] [pid 5363] AH01757: generating secret for digest authentication ...
+[Wed Apr 29 13:05:58.269239 2015] [lbmethod_heartbeat:notice] [pid 5363] AH02282: No slotmem from mod_heartmonitor
+[Wed Apr 29 13:05:58.274918 2015] [mpm_prefork:notice] [pid 5363] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Wed Apr 29 13:05:58.275007 2015] [core:notice] [pid 5363] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Apr 29 13:06:23.719861 2015] [autoindex:error] [pid 5367] [client 127.0.0.1:49962] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Apr 29 13:46:13.301526 2015] [mpm_prefork:notice] [pid 5363] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Apr 29 13:50:58.894724 2015] [core:notice] [pid 6360] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Apr 29 13:50:58.897463 2015] [suexec:notice] [pid 6360] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Apr 29 13:51:03.934303 2015] [auth_digest:notice] [pid 6360] AH01757: generating secret for digest authentication ...
+[Wed Apr 29 13:51:03.937753 2015] [lbmethod_heartbeat:notice] [pid 6360] AH02282: No slotmem from mod_heartmonitor
+[Wed Apr 29 13:51:03.943194 2015] [mpm_prefork:notice] [pid 6360] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Wed Apr 29 13:51:03.943276 2015] [core:notice] [pid 6360] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Apr 29 13:51:23.444975 2015] [autoindex:error] [pid 6365] [client 127.0.0.1:49975] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Apr 29 16:46:58.286422 2015] [autoindex:error] [pid 6362] [client 127.0.0.1:49990] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Apr 29 17:12:51.266040 2015] [mpm_prefork:notice] [pid 6360] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Apr 29 17:20:24.271827 2015] [core:notice] [pid 10315] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Apr 29 17:20:24.272535 2015] [suexec:notice] [pid 10315] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Apr 29 17:20:24.279438 2015] [auth_digest:notice] [pid 10315] AH01757: generating secret for digest authentication ...
+[Wed Apr 29 17:20:24.280867 2015] [lbmethod_heartbeat:notice] [pid 10315] AH02282: No slotmem from mod_heartmonitor
+[Wed Apr 29 17:20:24.290226 2015] [mpm_prefork:notice] [pid 10315] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Wed Apr 29 17:20:24.290253 2015] [core:notice] [pid 10315] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Apr 29 17:59:08.650988 2015] [core:warn] [pid 10315] (13)Permission denied: AH00056: connect to listener on [::]:8080
+[Wed Apr 29 17:59:08.651241 2015] [mpm_prefork:notice] [pid 10315] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Apr 29 17:59:09.771607 2015] [core:notice] [pid 10935] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Apr 29 17:59:09.772450 2015] [suexec:notice] [pid 10935] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Apr 29 17:59:09.781735 2015] [auth_digest:notice] [pid 10935] AH01757: generating secret for digest authentication ...
+[Wed Apr 29 17:59:09.782486 2015] [lbmethod_heartbeat:notice] [pid 10935] AH02282: No slotmem from mod_heartmonitor
+[Wed Apr 29 17:59:09.783994 2015] [mpm_prefork:notice] [pid 10935] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Wed Apr 29 17:59:09.784556 2015] [core:notice] [pid 10935] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Apr 29 18:38:44.512176 2015] [core:warn] [pid 10935] (13)Permission denied: AH00056: connect to listener on [::]:8080
+[Wed Apr 29 18:38:44.512379 2015] [mpm_prefork:notice] [pid 10935] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Apr 29 18:44:22.310460 2015] [core:notice] [pid 12016] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Apr 29 18:44:22.311185 2015] [suexec:notice] [pid 12016] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Apr 29 18:44:22.317417 2015] [auth_digest:notice] [pid 12016] AH01757: generating secret for digest authentication ...
+[Wed Apr 29 18:44:22.318103 2015] [lbmethod_heartbeat:notice] [pid 12016] AH02282: No slotmem from mod_heartmonitor
+[Wed Apr 29 18:44:22.319607 2015] [mpm_prefork:notice] [pid 12016] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Wed Apr 29 18:44:22.331622 2015] [core:notice] [pid 12016] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
